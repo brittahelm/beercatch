@@ -86,7 +86,6 @@ function draw(){
         drinks[i].y += acceleration;
         if (drinks[i].y >= 400 && drinks[i].y < 400+acceleration){
             let nextDrink = drinkChoice[Math.floor(Math.random()*2)];
-            console.log(nextDrink);
             drinks.push({
                 x: Math.floor(Math.random()*canvas.width),
                 y: -100,
@@ -158,8 +157,6 @@ function playerMovement(){
 
 let highscore;
 
-
-console.log(localStorage.getItem('bestscore'));
 
 function endGame() {
     backgroundMusic.pause();
