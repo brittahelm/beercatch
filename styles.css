@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-image: radial-gradient(red, pink);
+}
+
+h1 {
+    font-family: 'Berkshire Swash';
+    font-size: 75px;
+}
+
+canvas {
+    margin: 10px;
+}
+
+#start-screen {
+    margin-top: 10px;
+    height: 600px;
+}
+
+#start-beers {
+    border-radius: 50%;
+    width: 150px;
+}
+
+#end-tea {
+    border-radius: 50%;
+    width: 150px;
+}
