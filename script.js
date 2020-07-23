@@ -171,6 +171,7 @@ function endGame() {
         }
         else {
             localStorage.setItem('bestscore', score);
+            highscore = score;
         }
 
     let scoreText = `You caught ${score} beers.`
